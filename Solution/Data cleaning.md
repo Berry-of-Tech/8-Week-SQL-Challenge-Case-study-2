@@ -157,4 +157,4 @@ FROM runner_orders
 **Old vs Altered Table** 
 		Old Table                                       | 	Altered Table
 :--------------------------------------------------:|:------------------------------------------------:
-![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Old%20runner%20orders%20table.png)|![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/clean%20runner%20orders%20table.png)
+![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/old%20runner%20order.png)|![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/clean%20runner%20orders%20table.png)
