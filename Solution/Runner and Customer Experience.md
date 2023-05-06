@@ -89,6 +89,7 @@ ORDER BY avg_time_to_prepare DESC;
 --YES, there is a relationship(correlation) between the number of pizzas and how long the order takes to prepare
 
 ---
+
 4. What was the average distance travelled for each customer?
 ```sql
 SELECT c.customer_id, CEIL(AVG(r.distance_km)) AS avg_distance_km
@@ -136,7 +137,7 @@ SET duration_s = duration_mins * 60
 ```
   Old table                        | Updated table
  :--------------------------------:|:-------------------------------------:
-  ![](https://github.com/imanjokko/PizzaRunner/blob/main/images/runnerordersaltered.png) | ![](https://github.com/imanjokko/PizzaRunner/blob/main/images/runnerordersupdated.png)
+  ![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/clean%20runner%20orders%20table.png) | ![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/Updated%20runner%20order%20table.png)
 
 --speed for each delivery
 ~~~sql
