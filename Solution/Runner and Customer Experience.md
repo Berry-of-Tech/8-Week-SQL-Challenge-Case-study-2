@@ -79,7 +79,7 @@ SELECT total_pizza, AVG(time_to_prepare) AS avg_time_to_prepare
 FROM CTE
 GROUP BY total_pizza
 ORDER BY avg_time_to_prepare DESC;
-~~~
+```
  total_pizzas | avg_time_to_prepare
 :----------:|:--------------:
   3         | 00:29:17
