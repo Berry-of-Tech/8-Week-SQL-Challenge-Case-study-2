@@ -29,7 +29,7 @@ LEFT JOIN LATERAL UNNEST(STRING_TO_ARRAY(c.extras,',')) AS e(extras) ON TRUE;
 SELECT *
 FROM clean_extras
 ```
-![](https://github.com/imanjokko/PizzaRunner/blob/main/images/extrasBreak.png)
+![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/temp%20extras%20table.png)
 
 -- Create a temp table clean_exclusions to separate exclusions with delimiter into multiple rows
 ```sql
@@ -43,7 +43,7 @@ LEFT JOIN LATERAL UNNEST(STRING_TO_ARRAY(c.exclusions,',')) AS e(exclusions) ON 
 SELECT *
 FROM clean_exclusions
 ```
-![](https://github.com/imanjokko/PizzaRunner/blob/main/images/exclusionsBreak.png)
+![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/temp%20extrusions%20table.png)
 
 --Create a temp table clean_toppings to separate toppings into multiple rows
 ```sql
@@ -70,7 +70,7 @@ SELECT *
 FROM clean_toppings;
 
 ```
-![](https://github.com/imanjokko/PizzaRunner/blob/main/images/toppingsBreak.png)
+![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/clean%20toppings.png)
 
 --Create a temp table new_recipes to separate toppings into multiple rows
 ```sql
@@ -162,7 +162,7 @@ FROM customer_orders;
 ```
  Old Table                                    | Altered Table
 :--------------------------------------------:|:--------------:
-  ![](https://github.com/imanjokko/PizzaRunner/blob/main/images/customerordersaltered.png)|![](https://github.com/imanjokko/PizzaRunner/blob/main/images/customerordersrecordid.png)
+  ![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/clean%20customer%20orders%20table.png)|![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/customer%20orders%20table%20with%20record_id%20.png)
 
 
 ```SQL
@@ -210,7 +210,7 @@ c.order_time,
 p.pizza_name
 ORDER BY record_id;
 ```
-![](https://github.com/imanjokko/PizzaRunner/blob/main/images/sectioncno4.png)
+![]()
 
 5. Generate an alphabetically ordered comma separated ingredient list for each pizza order from the customer_orders table and add a 2x in front of any relevant ingredients
   - For example: "Meat Lovers: 2xBacon, Beef, ... , Salami"
