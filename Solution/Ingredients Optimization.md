@@ -147,10 +147,9 @@ LIMIT 1;
    - Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers
 
 **To solve this question:** 
-- I created temp tables, see the *Creating Temp Tables* section above for the queries used
-- Create 3 CTEs: CTE_Extras, CTE_Exclusions, and CTE_Union combining two tables
-- Use the CTE_Union to LEFT JOIN with the customer_orders table and JOIN with the pizza_name table
-- Use the CONCAT_WS with STRING_AGG to get the result
+- I Created 3 CTEs: CTE_Extras, CTE_Exclusions, and CTE_Union combining two tables
+- I used the CTE_Union to LEFT JOIN with the customer_orders table and JOIN with the pizza_name table
+- I used the CONCAT_WS with STRING_AGG to get the result
 
 --adding record id column
 ```sql
@@ -210,16 +209,12 @@ c.order_time,
 p.pizza_name
 ORDER BY record_id;
 ```
-![]()
+![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/ingredient%20optimisation%204.png)
 
 5. Generate an alphabetically ordered comma separated ingredient list for each pizza order from the customer_orders table and add a 2x in front of any relevant ingredients
   - For example: "Meat Lovers: 2xBacon, Beef, ... , Salami"
 
-To solve this question:
-- Create a CTE in which each line displays an ingredient for an ordered pizza (add '2x' for extras and remove exclusions as well)
-  - Use CONCAT and STRING_AGG to get the result
-
-~~~sql
+```sql
 WITH CTE_ingredients AS (
   SELECT 
     c.record_id,
@@ -268,16 +263,17 @@ GROUP BY
   pizza_name
 ORDER BY 
   record_id;
-~~~
-![](https://github.com/imanjokko/PizzaRunner/blob/main/images/sectioncno6.png)
+```
+![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/ingredient%20optimisation%205.png)
 
 6. What is the total quantity of each ingredient used in all delivered pizzas sorted by most frequent first?
 To solve this question:
-- Create a CTE to record the number of times each ingredient was used
+- I Created a CTE to record the number of times each ingredient was used
   - if extra ingredient, add 2
   - if excluded ingredient, add 0
   - no extras or no exclusions, add 1
-~~~sql
+
+```sql
 WITH frequent_Ingredients_CTE AS (
   SELECT 
     c.record_id,
@@ -311,7 +307,9 @@ SELECT
 FROM frequent_Ingredients_CTE
 GROUP BY topping_name
 ORDER BY number_of_times_used DESC;
-~~~
+```
+
+
   topping_name  | number_of_times_used
 :--------------:|:--------------:
   Mushrooms     | 13
@@ -328,6 +326,6 @@ ORDER BY number_of_times_used DESC;
   Tomato Sauce  | 4
   
   # Insights
-- The most used ingredients are Mushrooms and Bacon
 - The most common extra is Bacon 
 - The most common exclusion is Cheese 
+- The most used ingredients are Mushrooms and Bacon
