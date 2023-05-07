@@ -267,7 +267,7 @@ ORDER BY
 ![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/ingredient%20optimisation%205.png)
 
 6. What is the total quantity of each ingredient used in all delivered pizzas sorted by most frequent first?
-To solve this question:
+**To solve this question:**
 - I Created a CTE to record the number of times each ingredient was used
   - if extra ingredient, add 2
   - if excluded ingredient, add 0
