@@ -39,23 +39,17 @@ So he prepared for us an entity relationship diagram of his database design but 
 
 # CASE STUDY
 
-[Data Cleaning steps](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/Data%20cleaning.md)
-
-[A- Pizza Metrics](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/A%20-%20pizza%20metrics.md)
-
-[B- Runner and Customer Experience](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/B-%20Runner%20and%20Customer%20Experience.md)
-
-[C- Ingredient Optimisation](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/C-%20Ingredients%20Optimization.md)
-
-[D- Pricing and Ratings](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/D-%20Pricing%20and%20Ratings.md)
-
-[E- Bonus DML Challenges](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/E-%20Bonus%20DML%20challenges)
-
+1. [Data Cleaning steps](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/Data%20cleaning.md)
+2. [A- Pizza Metrics](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/A%20-%20pizza%20metrics.md)
+3. [B- Runner and Customer Experience](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/B-%20Runner%20and%20Customer%20Experience.md)
+4. [C- Ingredient Optimisation](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/C-%20Ingredients%20Optimization.md)
+5. [D- Pricing and Ratings](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/D-%20Pricing%20and%20Ratings.md)
+6. [E- Bonus DML Challenges](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/E-%20Bonus%20DML%20challenges)
 ---
 
 # Recommendations
 
-There were 2 cancellations, one by the restaurant, and the other by the customer, it should be look into
+There were 2 cancellations, one by the restaurant, and the other by the customer, it should be look into to prevent it from happening again
 
 It may be difficult to find out why the customer cancelled, but the restaurant should put a cancellation policy in place that protects all parties, i.e. restaurant, customers, and runners.
 
