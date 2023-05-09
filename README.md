@@ -4,7 +4,7 @@ This is the 2nd challenge (Week 2) of the 8 Weeks SQL Challenge by DannyMa [Clic
 
 ![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/pizza%20runner%20image.png)
 
-#Introduction
+# Introduction
 
 Danny was scrolling through his Instagram feed when something really caught his eye - “80s Retro Styling and Pizza Is The Future!”
 
@@ -12,33 +12,38 @@ Danny was sold on the idea, but he knew that pizza alone was not going to help h
 
 Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
 
-#Problem Statement
+# Problem Statement
 
 Because Danny had a few years of experience as a data scientist - he was very aware that data collection was going to be critical for his business’ growth.
 
 So he prepared for us an entity relationship diagram of his database design but requires further assistance to clean his data and apply some basic calculations so he can better direct his runners and optimise Pizza Runner’s operations.
 
-#Skills Demonstrated
+# Skills Demonstrated
 
 - Exploratory Data Analysis
 - Data Manipulation
 - Intermediate SQL
 - Data Wrangling
 
-#Entity Relationship Diagram ERD
+# Entity Relationship Diagram ERD
 
 ![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/pizza%20runner%20ERD.png)
 
-#CASE STUDY
+# CASE STUDY
 
 [Data Cleaning steps](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/Data%20cleaning.md)
+
 [A- Pizza Metrics](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/A%20-%20pizza%20metrics.md)
+
 [B- Runner and Customer Experience](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/B-%20Runner%20and%20Customer%20Experience.md)
+
 [C- Ingredient Optimisation](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/C-%20Ingredients%20Optimization.md)
+
 [D- Pricing and Ratings](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/D-%20Pricing%20and%20Ratings.md)
+
 [E- Bonus DML Challenges](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Solution/E-%20Bonus%20DML%20challenges)
 
-#Recommendations
+# Recommendations
 
 Look into
 What caused restaurant cancellation? There were 2 cancellations, one initiated by the restaurant, and the other by the customer
