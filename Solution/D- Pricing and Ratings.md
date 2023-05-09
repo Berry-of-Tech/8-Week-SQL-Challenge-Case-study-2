@@ -22,7 +22,7 @@
 ```sql
 WITH prices AS (
 	SELECT c.pizza_id, pn.pizza_name, CASE 
-							WHEN c.pizza_id=1 THEN 12 ELSE 10 END AS price 
+	WHEN c.pizza_id=1 THEN 12 ELSE 10 END AS price 
 FROM customer_orders AS c
 JOIN pizza_names AS pn
 ON c.pizza_id = pn.pizza_id
@@ -45,7 +45,7 @@ WITH first_price AS (
   SELECT SUM(price) AS money_made
   FROM(
 	SELECT c.pizza_id, pn.pizza_name, CASE 
-							WHEN c.pizza_id=1 THEN 12 ELSE 10 END AS price 
+	WHEN c.pizza_id=1 THEN 12 ELSE 10 END AS price 
 FROM customer_orders AS c
 JOIN pizza_names AS pn
 ON c.pizza_id = pn.pizza_id
@@ -149,7 +149,7 @@ GROUP BY
   r.duration_mins;
 
 ```
-![]()
+![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/pricing%20and%20ratings%204.png)
 
 5. If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled - how much money does Pizza Runner have left over after these deliveries?
 
@@ -184,6 +184,6 @@ FROM income, expenses
  
 ---
 # Insights
-- The restaurant has made 138usd base income so far from pizza orders
-- When you add the prices of the extras, the total income comes up to 143usd
-- After paying the riders for their deliveries from the base income, the leftover cash is 94.44usd
+- The restaurant has made 138usd income from pizza orders
+- When the extras prices are added, the total income result to 143usd
+- The leftover cash is 94.44usd, after paying the riders for their deliveries from the base income
