@@ -33,7 +33,7 @@ So he prepared for us an entity relationship diagram of his database design but 
 
 # Entity Relationship Diagram ERD
 
-![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/pizza%20runner%20ERD.png)
+![](https://github.com/Berry-of-Tech/8-Week-SQL-Challenge-Case-study-2/blob/main/Images/Pizza%20Runner%20ERD.png)
 
 --- 
 
